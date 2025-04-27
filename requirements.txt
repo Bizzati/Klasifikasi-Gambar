@@ -1,0 +1,5 @@
+tensorflowjs
+tensorflow
+matplotlib
+kaggle
+scikit-learn
