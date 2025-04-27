@@ -1,4 +1,7 @@
-# Running requirements
+# Flower Species Classifier using CNN
+
+## Dataset Source
+https://www.kaggle.com/datasets/l3llff/flowers/data
 
 ## Environment setup
 
@@ -8,6 +11,9 @@ pip install -r requirements.txt
 
 ##  Model Formats
 
-- **SavedModel**: Folder standar TensorFlow yang menyimpan graph dan bobot model lengkap.
-- **TF-Lite**: File `.tflite` ter‐optimasi untuk inference di perangkat mobile atau embedded (Android, iOS, Raspberry Pi).
-- **TFJS**: File `model.json` + `*.bin` untuk menjalankan model langsung di browser atau Node.js.
+- **SavedModel**  
+  The standard TensorFlow folder format that stores the complete model graph and weights.
+- **TFLite**  
+  A single `.tflite` file optimized for on-device inference on mobile or embedded platforms (Android, iOS, Raspberry Pi).
+- **TensorFlow.js (TFJS)**  
+  A `model.json` file with accompanying binary shards (`*.bin`) to run the model directly in web browsers or Node.js.
